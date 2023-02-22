@@ -1,6 +1,14 @@
-Projeto ETL para dados do sistema informatizado de Comunicação de Acidentes do Trabalho do INSS (CATWEB)
+# Projeto ETL: dados de Comunicação de Acidentes do Trabalho do INSS (CATWEB)
 
 Este projeto tem como objetivo consolidar as informações disponíveis no sistema informatizado de Comunicação de Acidentes do Trabalho do INSS (CATWEB), referentes ao ano de 2022. Os dados serão processados utilizando técnicas de extração, transformação e carregamento (ETL), utilizando ferramentas como Colab e Google Cloud.
+
+## Índice
+
+- [Escopo do Projeto Project](#escopo-do-projeto-project)
+- [Ingestão](#ingestão)
+- [Considerações](#considerações)
+- [Contribuição](#contribuição)
+- [Referências](#referências)
 
 ## Escopo do Projeto Project
 
@@ -30,7 +38,9 @@ Os dados serão salvos em MongoDB Atlas em coleções diferentes, com a identifi
 O processo de ETL pode ser uma tarefa complexa, mas é fundamental para garantir a qualidade e consistência dos dados. Ao utilizar ferramentas como o Colab e o Google Cloud, podemos simplificar e automatizar muitas das etapas envolvidas. A limpeza e transformação dos dados foram etapas críticas para obter insights significativos. Durante este projeto, foram identificados e tratados vários problemas, como valores nulos, dados inconsistentes e colunas desnecessárias. 
 As três insights identificadas neste projeto 
 > as profissões com maior incidência de acidentes, 
+
 > as causas mais comuns de acidentes 
+
 > e os estados com mais registros de acidentes
 
 podem ser úteis para diferentes públicos, como profissionais de segurança do trabalho, empresas e instituições governamentais.
@@ -39,8 +49,10 @@ podem ser úteis para diferentes públicos, como profissionais de segurança do 
 
 Este projeto é aberto a contribuições. Se você deseja melhorar ou adicionar recursos, sinta-se à vontade para criar uma solicitação pull ou entrar em [contato](https://www.linkedin.com/in/nayyarabernardo).
 
-## Links
+## Referências
 
-- [Documentation Apache Airflow](https://airflow.apache.org/docs/stable/)
-- [Documentation Timeline Weather API ](https://www.visualcrossing.com/resources/documentation/weather-api/timeline-weather-api/)
+- [Documentação do Pandas](https://pandas.pydata.org/docs/)
+- [Documentação do PySpark](https://spark.apache.org/docs/latest/api/python/)
+- [Documentação da GCP](https://cloud.google.com/docs)
+- [Documentação do MySQL](https://dev.mysql.com/doc/)
 
