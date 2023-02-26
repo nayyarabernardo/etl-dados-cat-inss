@@ -1,4 +1,4 @@
-# Projeto ETL: dados de Comunicação de Acidentes do Trabalho do INSS (CATWEB)
+# Projeto ETL: dados de Comunicação de Acidentes do Trabalho do INSS (CATWEB) 👷
 
 Este projeto tem como objetivo consolidar as informações disponíveis no sistema informatizado de Comunicação de Acidentes do Trabalho do INSS (CATWEB), referentes ao ano de 2022. Os dados serão processados utilizando técnicas de extração, transformação e carregamento (ETL), utilizando ferramentas como Colab e Google Cloud.
 
