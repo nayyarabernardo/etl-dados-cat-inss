@@ -1,3 +1,6 @@
+> 🚀 Este projeto foi atualizado com uma nova versão que utiliza ferramentas modernas como **API para ingestão de dados, dbt, Airflow** e uma arquitetura mais robusta.  
+> Acesse a nova versão na branch [`feature/revamp-2025`](https://github.com/nayyarabernardo/etl-dados-cat-inss/tree/feature/revamp-2025) para ver as melhorias!
+
 # Projeto ETL: dados de Comunicação de Acidentes do Trabalho do INSS (CATWEB) 👷
 
 Este projeto tem como objetivo consolidar as informações disponíveis no sistema informatizado de Comunicação de Acidentes do Trabalho do INSS (CATWEB), referentes ao ano de 2022. Os dados serão processados utilizando técnicas de extração, transformação e carregamento (ETL), utilizando ferramentas como Colab e Google Cloud.
